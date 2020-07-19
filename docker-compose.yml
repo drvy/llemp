@@ -9,7 +9,6 @@ services:
     tty: true
     volumes:
       - './src:/var/www'
-      - './etc/profile.d/php7.sh:/var/etc/profile.d/php7.sh'
       - './etc/nginx/nginx.conf:/etc/nginx/nginx.conf'
     ports:
       - 9001:80
